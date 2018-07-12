@@ -3,7 +3,7 @@
 
 def key_for_min_value(name_hash)
   i = 600
-low_key = {}
+low_key = []
   if name_hash.length > 0
     name_hash.each do |key, value|
       if value < i
